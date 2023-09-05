@@ -9,7 +9,7 @@ import java.util.List;
 
 public class WebClientService {
     public static void main(String[] args) {
-        WebDriver driver =new EdgeDriver();;
+        WebDriver driver =new EdgeDriver();
         driver.get("http://www.fyzserver.com/data/H5/HFWX/Home/appoint.php");
 
         driver.findElement(By.id("pc_change_know")).click();
