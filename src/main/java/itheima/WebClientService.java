@@ -15,7 +15,7 @@ public class WebClientService {
         driver.findElement(By.id("pc_change_know")).click();
         driver.findElement(By.id("pc_know")).click();
         //driver.close();
-        driver.findElement(By.id("pc_date")).sendKeys("2023-09-20");
+        driver.findElement(By.id("pc_date")).sendKeys("2023-09-21");
         List<WebElement> elements = driver.findElements(By.className("layui-icon-ok"));
         elements.get(3).click();elements.get(4).click();elements.get(5).click();
         driver.findElement(By.id("dyy2")).click();
@@ -29,7 +29,7 @@ public class WebClientService {
         driver.findElements(By.className("layui-edge")).get(6).click();
         dd.get(37).click();
 
-        driver.findElement(By.id("pc_small")).sendKeys("25");
+        driver.findElement(By.id("pc_small")).sendKeys("29");
 
         driver.findElements(By.className("layui-edge")).get(7).click();
         dd.get(46).click();
